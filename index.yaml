@@ -2,10 +2,10 @@
 # https://github.com/srid/emanote/blob/master/default/index.yaml
 
 page:
-  siteTitle: Baljeet's Blog
+  siteTitle: Noteworthy Notes
 
 template:
-  theme: red
+  theme: indigo
   sidebar:
     collapsed: false
   urlStrategy: pretty

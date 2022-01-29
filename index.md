@@ -1,5 +1,3 @@
-# Baljeet's Blog
+# Noteworthy Notes
 
-A Git repo for users to get started with [Emanote], with GitHub Pages deployment. See [[README|README]].
-
-[Emanote]: https://note.ema.srid.ca/
+I am a Software Engineer by profession and read a bit. I share my learnings from books and from real life in this space.
