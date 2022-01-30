@@ -18,9 +18,10 @@ jobs:
             -v $PWD:/data sridca/emanote \
             emanote --layers "/data;/data/.deploy/github" gen /data/output.docker
           cp -r output.docker output  # Ditch docker created root-owned files
+          bash output/_emanote-bin/compile-css
       - name: Deploy to gh-pages 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output/
-          # cname: yoursite.com (if setting this, adjust .deploy/github/index.yaml accordingly; see README.md)
+          cname: promragger.com 
