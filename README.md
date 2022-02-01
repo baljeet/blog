@@ -1,4 +1,4 @@
 # blog
 Baljeet's blog
 
-Baljeet will be sharing his views in this space
+This is built using emanote which is a good way to publish static sites with backlinking feature.
