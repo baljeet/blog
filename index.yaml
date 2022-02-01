@@ -2,7 +2,7 @@
 # https://github.com/srid/emanote/blob/master/default/index.yaml
 
 page:
-  siteTitle: Something to Note
+  siteTitle: Baljeet's Slipbox
 
 template:
   theme: indigo
